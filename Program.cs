@@ -65,8 +65,8 @@ public class Program{
     khoảng cách giữa các cụm theo single linkage (theo
     khoảng cách nhỏ nhất giữa các cặp điểm của 2 cụm).
     5/ Bổ sung operator + để hợp 2 Cluster.
-    6/ Cài đặt thuật toán hierarchical clustering để gom
-    các cụm lại với nhau (với single linkage).
+    6/ Cài đặt thuật toán hierarchical clustering để phân
+     cụm (với single linkage).
         - public List<Cluster> HierarchicalClustering()
     7/ Triển khai kết quả trong hàm main.
 */
