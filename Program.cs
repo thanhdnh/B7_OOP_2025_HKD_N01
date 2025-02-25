@@ -67,5 +67,6 @@ public class Program{
     5/ Bổ sung operator + để hợp 2 Cluster.
     6/ Cài đặt thuật toán hierarchical clustering để gom
     các cụm lại với nhau (với single linkage).
+        - public List<Cluster> HierarchicalClustering()
     7/ Triển khai kết quả trong hàm main.
 */
