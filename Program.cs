@@ -40,6 +40,7 @@ public class Program{
         Course hoa = new Course("SE03", "Hoa", 1, 9);
         double sum = (toan + ly + hoa).Point;
         double gpa = (toan/ly/hoa).Point;//(2*8+1*7+1*9)/4
+        Console.WriteLine($"Sum: {sum}, GPA: {gpa}");
     }
 }
 /*
@@ -51,4 +52,20 @@ public class Program{
     4/ Xd operator / để tính điểm trung bình của 2 môn theo trọng số.
     5/ Xd hàm main với đầu vào là một danh sách các môn học
     mà một Sinh viên nào đó đã học và test thử các methods.
+*/
+
+/* Lab 07 - 08 (Lab 07 từ câu 01-05, Lab 08 từ câu 06-07).
+    Một lớp Point trong hệ toạ độ Descartes 2 chiều gồm các
+    thuộc tính: x, y. Một lớp Cluster chứa một list các Point.
+    1/ Xây dựng lớp Point.
+    2/ Bổ sung vào Point: ToString dạng A(x, y), distance
+     - tính khoảng cách giữa 2 điểm theo Euclidean.
+    3/ Bổ sung vào lớp Cluster: ToString dạng {A(x, y), B(x, y), C(x, y)}
+    4/ Bổ sung phương thức distance cho Cluster để tính
+    khoảng cách giữa các cụm theo single linkage (theo
+    khoảng cách nhỏ nhất giữa các cặp điểm của 2 cụm).
+    5/ Bổ sung operator + để hợp 2 Cluster.
+    6/ Cài đặt thuật toán hierarchical clustering để gom
+    các cụm lại với nhau (với single linkage).
+    7/ Triển khai kết quả trong hàm main.
 */
